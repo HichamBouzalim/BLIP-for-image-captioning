@@ -1,28 +1,17 @@
 # 🖼️ BLIP with Hugging Face Transformers
 
-This project demonstrates how to use **BLIP (Bootstrapping Language-Image Pretraining)** with Hugging Face Transformers for **image captioning** and **visual question answering (VQA)**.  
-
-BLIP bridges the gap between **computer vision** and **natural language processing**, enabling AI systems to understand and describe images in natural language.
+A Python project that uses **BLIP** (Bootstrapped Language-Image Pretraining) from Salesforce to generate **captions for images**. This project leverages Hugging Face Transformers and PyTorch to produce high-quality image descriptions.
 
 ---
 
-## 🎯 Objectives
-By working through this project, you will learn how to:
-- Understand the basics of **BLIP**
-- Generate **captions for images**
-- Implement **visual question answering (VQA)**
-- Explore real-world applications such as accessibility, social media, and content creation
+## 🎯 Features
 
----
+  - Generates descriptive captions for any input image.
+  - Utilizes Salesforce’s BLIP model pre-trained on large-scale image-text datasets.
+  - Easy-to-use interface with minimal setup.
+  - Fully compatible with PyTorch and Hugging Face Transformers.
 
-## 📖 Introduction
 
-[Hugging Face Transformers](https://huggingface.co/docs/transformers/index) is a popular open-source library that provides state-of-the-art pretrained models for NLP and multimodal tasks.  
-
-**BLIP** extends this by combining **text + images**, which enables:
-- 📷 Automatic photo captioning
-- ❓ Visual question answering
-- 🔎 Image-based search queries
 
 ---
 
@@ -34,10 +23,20 @@ By working through this project, you will learn how to:
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Requirements
+  - Python >= 3.11
+  - PyTorch
+  - torchvision (for image processing and model support)
+  - Hugging Face Transformers
+  - Pillow (Python Imaging Library)
+  - Jupyter Notebook (optional, for interactive testing)
+
+Optional: A GPU is recommended for faster caption generation.
+
+---
 
 ### 1️⃣ Installation
 Make sure you have Python (≥3.8) installed, then run:
 
 ```bash
-pip install transformers Pillow torch torchvision torchaudio
+pip install transformers Pillow torch torchvision 
