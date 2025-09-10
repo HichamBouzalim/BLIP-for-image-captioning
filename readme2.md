@@ -1,4 +1,4 @@
-# 🖼️ BLIP with Hugging Face Transformers
+# 🖼️ BLIP Image Captioning with Hugging Face Transformers
 
 A Python project that uses **BLIP** (Bootstrapped Language-Image Pretraining) from Salesforce to generate **captions for images**. This project leverages Hugging Face Transformers and PyTorch to produce high-quality image descriptions.
 
